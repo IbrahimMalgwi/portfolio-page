@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
 import About from './About';
-import Skills from './Skills';
-import Experience from './Experiences';
 import Education from './Educations';
+import Experience from './Experience';
+import Navbar from './Navbar';
 import Portfolios from './Portfolios';
+import Skills from './Skills';
 
 export default class Home extends Component {
   render() {
@@ -16,7 +16,7 @@ export default class Home extends Component {
                <div className='col s12 m4 l3'>
                   <Profile />
                </div>
-               <div className='col s12 m8 l3'>
+               <div className='col s12 m8 l9'>
                   <About />
                   <Skills />
                   <Experience />
